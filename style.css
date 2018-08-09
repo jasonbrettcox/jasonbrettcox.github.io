@@ -1,0 +1,40 @@
+body{
+background-image: url("andras-vas-655218-unsplash.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 100%;
+color: white;
+font-family: 'Hanalei Fill', cursive;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+}
+
+.headline{
+  font-size: 2em;
+}
+.col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-lg{
+  padding 1em 1em 1em 1em;
+}
+@media (min-width: 576px){
+  .headline{
+    font-size: 4em;
+  }
+}
